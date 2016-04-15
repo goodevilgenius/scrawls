@@ -6,19 +6,19 @@ permalink: /blog/:year/:month/:day/:title/
 relative_permalinks: false
 
 # Setup
-title:               foo
+title:               "Dan's Scrawls"
 #tagline:             'foo's website
-description:         Foo's blog...
-url: https://dyndna.github.io/lanyon-plus
-baseurl: "/lanyon-plus"
+description:         "Some writing"
+url: http://scrawls.danielrayjones.com/
+baseurl: 
 urlimg: https://dyndna.github.io/lanyon-plus/images/
 markdown: kramdown
 paginate: 5
-paginate_path: "/blog/page:num"
+paginate_path: "/page/:num/"
 excerpt_separator: <!--more-->
 default_bg: sitelogo.png 
 safe: false
-#timezone:    America/Chicago
+timezone:    America/Chicago
 future:      true
 
 gems:
