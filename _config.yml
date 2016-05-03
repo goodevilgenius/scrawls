@@ -17,9 +17,9 @@ paginate: 5
 paginate_path: "/page/:num/"
 excerpt_separator: "<!--more-->"
 default_bg: sitelogo.png 
-safe: false
+safe: true
 timezone:    America/Chicago
-future:      true
+future:      false
 
 gems:
   - jekyll-paginate
@@ -29,7 +29,7 @@ gems:
   - rouge
 
 include: [".htaccess"]
-exclude: ["lib", "config.rb", "Gemfile", "Capfile", "Gemfile.lock", "config", "log", "Rakefile", "Rakefile.rb", "rakefile", "README.md", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "LICENSE", "vendor", "assets", "_plugins", "public/dormant"]
+exclude: ["lib", "config.rb", "Gemfile", "Capfile", "Gemfile.lock", "config", "log", "Rakefile", "Rakefile.rb", "rakefile", "README.md", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "LICENSE", "vendor", "assets", "_plugins", "public/dormant", "CNAME"]
 
 # About/contact
 author:
