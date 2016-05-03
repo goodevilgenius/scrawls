@@ -11,11 +11,11 @@ title:               "Dan's Scrawls"
 description:         "Some writing"
 url: http://scrawls.danielrayjones.com
 baseurl: 
-urlimg: https://dyndna.github.io/lanyon-plus/images/
+urlimg: https://pbs.twimg.com/profile_images/67492770/200707-Jalaine-453x604-eyes-colored_400x400.jpg
 markdown: kramdown
 paginate: 5
 paginate_path: "/page/:num/"
-excerpt_separator: <!--more-->
+excerpt_separator: "<!--more-->"
 default_bg: sitelogo.png 
 safe: false
 timezone:    America/Chicago
@@ -100,7 +100,4 @@ links:
 # Analytics and webmaster tools stuff goes here
 #google_analytics:   xyz123abc
 
-#### For dummy website only - remove if you wish ####
-github_repo: https://github.com/goodevilgenius/scrawls
-version: 1.1.0
 ## END ##
