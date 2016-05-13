@@ -32,7 +32,7 @@
             {% if link.external %}
                     <a class="sidebar-nav-item{% if page.url == link.url %} active{% endif %}" href="{{ link.url }}" target="_blank">{{ link.title }}</a>
                 {% else %}
-                    <a class="sidebar-nav-item{% if page.url == link.url %} active{% endif %}" href="{{ site.url }}{{ link.url }}">{{ link.title }}</a>
+                    <a class="sidebar-nav-item{% if page.url == link.url %} active{% endif %}" href="{{ site.url }}{{ site.baseurl }}{{ link.url }}">{{ link.title }}</a>
                 {% endif %}
     {% endfor %}     
   </nav>
@@ -43,7 +43,7 @@
 <div id="searchbox2" style="margin:0 auto; display: table;">
 <div class="searchcont2">
     <!-- span class="searchicon2"><i class="fa fa-search fa-2x"></i></span -->
-    <form role="search" method="get" action="{{ site.url }}/cse/">
+    <form role="search" method="get" action="{{ site.url }}{{ site.baseurl }}/cse/">
         <input id="searchString2" name="searchString2"
                placeholder=" Search" type="text">
     </form>

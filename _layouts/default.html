@@ -2,8 +2,8 @@
 <html lang="en-us">
 <!--  
 ====================================================
-Homepage: {{ site.url }}
-Credits: {{ site.url }}/disclosure
+Homepage: {{ site.url }}{{ site.baseurl }}
+Credits: {{ site.url }}{{ site.baseurl }}/disclosure
 ====================================================
 -->
 {% include head.html %}
@@ -21,9 +21,9 @@ Credits: {{ site.url }}/disclosure
             <a href="{{ site.baseurl }}/" title="Home">{{ site.title }}</a>
             <!-- <small>{{ site.tagline }}</small> -->
             <div class="headicons">
-              <small><a href="{{ site.url }}/about" rel="me" title="About"><i class="iconm iconm-user"></i></a></small>
-              <small><a href="{{ site.url }}/blog" rel="me" title="Blog"><i class="iconm iconm-quill"></i></a></small>
-              <small><a href="{{ site.url }}/contact" rel="me" title="Contact"><i class="iconm iconm-envelop"></i></a></small> 
+              <small><a href="{{ site.url }}{{ site.baseurl }}/about" rel="me" title="About"><i class="iconm iconm-user"></i></a></small>
+              <small><a href="{{ site.url }}{{ site.baseurl }}/blog" rel="me" title="Blog"><i class="iconm iconm-quill"></i></a></small>
+              <small><a href="{{ site.url }}{{ site.baseurl }}/contact" rel="me" title="Contact"><i class="iconm iconm-envelop"></i></a></small> 
             </div>           
           </h3>
         </div>

@@ -3,11 +3,11 @@
 
 /* TEAM */
 Primary Contact: foo
-Site: {{ site.url }}/about/
+Site: {{ site.url }}{{ site.baseurl }}/about/
 Twitter: https://twitter.com/{{ site.owner.twitter }}
 
 /* THANKS */
-Design Contributors: {{ site.url }}/disclosure/
+Design Contributors: {{ site.url }}{{ site.baseurl }}/disclosure/
 
 /* SITE */
 Last Updated: {{ site.time | date:"%Y/%m/%d" }}

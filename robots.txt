@@ -1,3 +1,5 @@
+---
+---
 User-agent: Googlebot
 Disallow: /assets/
 Disallow: /CNAME
@@ -55,4 +57,4 @@ Disallow: /files/
 User-agent: *
 Disallow: /
 
-Sitemap: https://scrawls.danielrayjones.com/sitemap.xml
+Sitemap: {{ site.url }}{{ site.baseurl }}/sitemap.xml
