@@ -76,8 +76,8 @@ links:
     url: /tags/
   - title: <i class="fa fa-archive"></i> Archive
     url: /archive/
-  - title: <i class="iconside iconm-wordpress"></i> Blog
-    url: http://goodevilgenius.org
+  - title: <i class="iconside iconm-terminal"></i> Working on &hellip;
+    url: https://goodevilgenius.gitbooks.io/batman-last-son-of-krypton/content/v/tween-powers/
     external: true
   - title: <i class="iconside iconm-envelop"></i> Contact
     url: /contact/
