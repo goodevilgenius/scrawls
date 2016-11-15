@@ -9,7 +9,7 @@ relative_permalinks: false
 title:               "Dan's Scrawls"
 #tagline:             'foo's website
 description:         "Some writing"
-url: http://scrawls.danielrayjones.com
+url: https://scrawls.danielrayjones.com
 baseurl: 
 urlimg: https://pbs.twimg.com/profile_images/67492770/200707-Jalaine-453x604-eyes-colored_400x400.jpg
 markdown: kramdown
