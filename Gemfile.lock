@@ -8,7 +8,7 @@ GEM
       tzinfo (~> 1.1)
     colorator (0.1)
     concurrent-ruby (1.1.5)
-    ffi (1.9.10)
+    ffi (1.11.1)
     font-awesome-sass (4.5.0)
       sass (>= 3.2)
     gemoji (2.1.0)
