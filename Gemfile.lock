@@ -16,7 +16,7 @@ GEM
       http_parser.rb (~> 0.6.0)
     eventmachine (1.2.7)
     ffi (1.12.2)
-    font-awesome-sass (5.12.0)
+    font-awesome-sass (5.13.0)
       sassc (>= 1.11)
     forwardable-extended (2.6.0)
     gemoji (3.0.1)
