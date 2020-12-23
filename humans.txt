@@ -2,14 +2,11 @@
 ---
 
 /* TEAM */
-Primary Contact: foo
+Primary Contact: {{ site.owner.name }}
 Site: {{ site.url }}{{ site.baseurl }}/about/
 Twitter: https://twitter.com/{{ site.owner.twitter }}
-
-/* THANKS */
-Design Contributors: {{ site.url }}{{ site.baseurl }}/disclosure/
 
 /* SITE */
 Last Updated: {{ site.time | date:"%Y/%m/%d" }}
 Standards: HTML5, CSS3
-Software: Sublime Text, Chrome, Jekyll, Git, Sass
+Software: Emacs, Firefox, Jekyll, Git, Sass
